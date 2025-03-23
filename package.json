@@ -1,1 +1,14 @@
-
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Un script pentru trimiterea de mesaje WhatsApp automate.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0", // Asigură-te că folosești cea mai recentă versiune
+    "pino": "^8.14.1", // Sau cea mai recentă versiune
+    "chalk": "^4.1.2" // Sau cea mai recentă versiune
+  }
+}
