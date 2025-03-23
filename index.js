@@ -1,4 +1,4 @@
-const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require("@whiskeysockets/baileys");
+Const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require("@whiskeysockets/baileys");
 const Pino = require("pino");
 const fs = require("fs");
 const readline = require("readline");
@@ -206,4 +206,6 @@ async function resumeSending(sock, targets, messages, messageDelay) {
 
                     console.log(chalk.red(`\n📤 Trimite către ${target}: "${messages[i]}"`));
                     console.log(chalk.red(`CAGULA ZEUL`));
-                    console
+                    console.log(chalk.red(`🕒 ${formattedDate} ${formattedTime}`));
+
+                    // Salvare progres
